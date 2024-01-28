@@ -12,7 +12,7 @@ function POS_analyzer() {
   const [editText, setEditText] = useState(true);
 
   async function handleSubmit() {
-    const link = `http://localhost:3003/proxy?url=${encodeURIComponent(
+    const link = `https://tutor-mates-pos-api.vercel.app/proxy?url=${encodeURIComponent(
       generateTaggerUrl(userText)
     )}`;
 
@@ -26,6 +26,8 @@ function POS_analyzer() {
         const data = await response.json();
 
         setData(data);
+        setShowInsightArea(true);
+
       } else {
         console.error(
           "Failed to fetch data:",
@@ -221,8 +223,15 @@ function POS_analyzer() {
                   setUserText(e.target.value);
                 }}
               ></textarea>
+            ) : data && showInsightArea ? (
+              <GenerateInsightTags />
             ) : (
-              showInsightArea && data && <GenerateInsightTags />
+              <textarea
+                id="text-area"
+                className="p-2 border-2 font-sans  min-h-40 text-lg"
+                value="Loading ......"
+                disabled
+              ></textarea>
             )}
           </div>
           <button
@@ -230,6 +239,7 @@ function POS_analyzer() {
             onClick={() => {
               userText && handleSubmit();
               setEditText(!editText);
+              setShowInsightArea(!showInsightArea);
             }}
           >
             {editText ? (
@@ -250,7 +260,6 @@ function POS_analyzer() {
               )
             ) : (
               <span>
-                {" "}
                 Edit Text
                 <i className="edit-icon ml-3">
                   <FontAwesomeIcon icon={faPenToSquare} />
