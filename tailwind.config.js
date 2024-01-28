@@ -4,45 +4,45 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        adjective: "#FFCC66", // Adjective
-        adverb: "#C69999", // Adverb
-        conjunction: "#CCCC99", // Conjunction
+        adjective: "#808000", // Adjective
+        adverb: "#87CEEB", // Adverb
+        conjunction: "#7030A0", // Conjunction
         determiner: "#9999CC", // Determiner
-        noun: "#CCCCCC", // Noun
+        noun: "#008000", // Noun
         number: "#66CC99", // Number
-        preposition: "#FFCC99", // Preposition
-        pronoun: "#EE77EE", // Pronoun
-        verb: "#CCFF66", // Verb
+        preposition: "#FFC000", // Preposition
+        pronoun: "#7FFF00", // Pronoun
+        verb: "#0070C0", // Verb
 
-        coordconjuncn: "#CCCC99", // Conjunction
-         existentialthere: "#CCCCCC", // Noun
-        foreignword: "#CCCCCC", // Noun
-         adjectivecomparative: "#FFCC66", // Adjective
-        adjectivesuperlative: "#FFCC66", // Adjective
-        modal: "#CCFF66", // Verb
-        nounsingormass: "#CCC", // Noun
-        propernounsing: "#CCCCCC", // Noun
-        propernounplural: "#CCCCCC", // Noun
-        nounplural: "#CCCCCC", // Noun
-        possessiveending: "#CCCCCC", // Noun
+        coordconjuncn: "#7030A0", // Conjunction
+         existentialthere: "#008000", // Noun
+        foreignword: "#008000", // Noun
+         adjectivecomparative: "#808000", // Adjective
+        adjectivesuperlative: "#808000", // Adjective
+        modal: "#0070C0", // Verb
+        nounsingormass: "#008000", // Noun
+        propernounsing: "#008000", // Noun
+        propernounplural: "#008000", // Noun
+        nounplural: "#008000", // Noun
+        possessiveending: "#008000", // Noun
         predeterminer: "#9999CC", // Determiner
-         possessivepronoun: "#EE77EE", // Pronoun
-        personalpronoun: "#EE77EE", // Pronoun
-         adverbcomparative: "#C69999", // Adverb
-        adverbsuperlative: "#C69999", // Adverb
-        particle: "#CCCCCC", // Noun
-        symbol: "#CCCCCC", // Noun
-        interjection: "#CCCCCC", // Noun
-        verbbaseform: "#CCFF66", // Verb
-        verbpasttense: "#CCFF66", // Verb
-        verbgerund: "#CCFF66", // Verb
-        verbpastpart: "#CCFF66", // Verb
-        verbpresent: "#CCFF66", // Verb
-        verbpresent: "#CCFF66", // Verb
+         possessivepronoun: "#7FFF00", // Pronoun
+        personalpronoun: "#7FFF00", // Pronoun
+         adverbcomparative: "#87CEEB", // Adverb
+        adverbsuperlative: "#87CEEB", // Adverb
+        particle: "#008000", // Noun
+        symbol: "#008000", // Noun
+        interjection: "#008000", // Noun
+        verbbaseform: "#0070C0", // Verb
+        verbpasttense: "#0070C0", // Verb
+        verbgerund: "#0070C0", // Verb
+        verbpastpart: "#0070C0", // Verb
+        verbpresent: "#0070C0", // Verb
+        verbpresent: "#0070C0", // Verb
         whdeterminer: "#9999CC", // Determiner
-        whpronoun: "#EE77EE", // Pronoun
-        possessivewh: "#EE77EE", // Pronoun
-        whadverb: "#C69999", // Adverb
+        whpronoun: "#7FFF00", // Pronoun
+        possessivewh: "#7FFF00", // Pronoun
+        whadverb: "#87CEEB", // Adverb
       },
     },
   },
