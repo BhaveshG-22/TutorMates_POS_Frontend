@@ -27,7 +27,6 @@ function POS_analyzer() {
 
         setData(data);
         setShowInsightArea(true);
-
       } else {
         console.error(
           "Failed to fetch data:",
@@ -164,27 +163,23 @@ function POS_analyzer() {
         );
       }
 
-      const spanClassName = `-z-10  relative bg-${classMap.get(
-        tag
-      )}   rounded p-1 font-medium text-lg m-1 mb-0 max-h-10`;
-      const tagDivClassName = `border-4 rounded absolute text-lg invisible  bg-${classMap.get(
-        tag
-      )} group-hover:visible m-[0.04rem] mt-[0.6rem] p-1 font-semibold rounded   `;
-      const tagTopArrowClassName = ` border-r-0  border-b-0  border text-lg absolute rotate-45 bg-${classMap.get(
-        tag
-      )} ml-2 p-1 font-semibold -mt-[10.75px]  border-2 scale-150 z-10`;
+      const posColour = classMap.get(tag);
+
+      const spanClassName = `-z-10 ${posColour} relative  rounded p-1 font-medium text-lg   mb-0 max-h-10`;
+      const tagDivClassName = `border-4 rounded absolute text-lg invisible text-noun bg-gray-300 ${posColour} bg group-hover:visible m-[0.04rem] mt-[0.6rem] p-1 font-semibold rounded   `;
+      const tagTopArrowClassName = `border-r-0  border-b-0  border text-lg absolute rotate-45 bg-${posColour} ml-2 p-1 font-semibold -mt-[10.75px]  border-2 scale-150 z-10`;
 
       return (
         <div
           key={index}
           className="h-max flex justify-center items-center flex-col  "
         >
-          <span className="group relative min-w-max  ">
+          <span className="group relative min-w-max">
             <div className={spanClassName}>{text}</div>
 
             <div className={tagDivClassName}>
               <div className={tagTopArrowClassName} />
-              <div className="min-w-max z-20">{posMap.get(tag)}</div>
+              <div className={`min-w-max z-20 `}>{posMap.get(tag)}</div>
             </div>
           </span>
         </div>
