@@ -16,23 +16,39 @@ code {
     monospace;
 }
 
-.adjective {
+.adjective,
+.adjectivecomparative,
+.adjectivesuperlative {
   color: #808000;
 }
 
-.adverb {
+.adverb,
+.adverbcomparative,
+.adverbsuperlative,
+.whadverb {
   color: #87ceeb;
 }
 
-.conjunction {
+.conjunction,
+.coordconjuncn {
   color: #7030a0;
 }
 
-.determiner {
+.determiner,
+.whdeterminer {
   color: #9acd32;
 }
 
-.noun {
+.noun,
+.existentialthere,
+.foreignword,
+.nounsingormass,
+.propernounsing,
+.propernounplural,
+.nounplural,
+.possessiveending,
+.particle,
+.symbol {
   color: #008000;
 }
 
@@ -40,10 +56,20 @@ code {
   color: #ffc000;
 }
 
-.pronoun {
+.pronoun,
+.possessivepronoun,
+.personalpronoun,
+.whpronoun,
+.possessivewh {
   color: #7fff00;
 }
 
-.verb {
+.verb,
+.modal,
+.verbbaseform,
+.verbpasttense,
+.verbgerund,
+.verbpastpart,
+.verbpresent {
   color: #0070c0;
 }

@@ -15,9 +15,9 @@ module.exports = {
         verb: "#0070C0", // Verb
 
         coordconjuncn: "#7030A0", // Conjunction
-         existentialthere: "#008000", // Noun
+        existentialthere: "#008000", // Noun
         foreignword: "#008000", // Noun
-         adjectivecomparative: "#808000", // Adjective
+        adjectivecomparative: "#808000", // Adjective
         adjectivesuperlative: "#808000", // Adjective
         modal: "#0070C0", // Verb
         nounsingormass: "#008000", // Noun
@@ -26,9 +26,9 @@ module.exports = {
         nounplural: "#008000", // Noun
         possessiveending: "#008000", // Noun
         predeterminer: "#9ACD32", // Determiner
-         possessivepronoun: "#7FFF00", // Pronoun
+        possessivepronoun: "#7FFF00", // Pronoun
         personalpronoun: "#7FFF00", // Pronoun
-         adverbcomparative: "#87CEEB", // Adverb
+        adverbcomparative: "#87CEEB", // Adverb
         adverbsuperlative: "#87CEEB", // Adverb
         particle: "#008000", // Noun
         symbol: "#008000", // Noun
@@ -37,7 +37,6 @@ module.exports = {
         verbpasttense: "#0070C0", // Verb
         verbgerund: "#0070C0", // Verb
         verbpastpart: "#0070C0", // Verb
-        verbpresent: "#0070C0", // Verb
         verbpresent: "#0070C0", // Verb
         whdeterminer: "#9ACD32", // Determiner
         whpronoun: "#7FFF00", // Pronoun

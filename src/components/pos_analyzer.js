@@ -163,11 +163,11 @@ function POS_analyzer() {
         );
       }
 
-      const posColour = classMap.get(tag);
+      const posColour = classMap.get(tag).toLocaleLowerCase();
 
       const spanClassName = `-z-10 ${posColour} relative  rounded p-1 font-medium text-lg   mb-0 max-h-10`;
       const tagDivClassName = `border-4 rounded absolute text-lg invisible text-noun bg-gray-300 ${posColour} bg group-hover:visible m-[0.04rem] mt-[0.6rem] p-1 font-semibold rounded   `;
-      const tagTopArrowClassName = `border-r-0  border-b-0  border text-lg absolute rotate-45 bg-${posColour} ml-2 p-1 font-semibold -mt-[10.75px]  border-2 scale-150 z-10`;
+      const tagTopArrowClassName = `border-r-0  border-b-0  border text-lg absolute rotate-45 bg-gray-300 ml-2 p-1 font-semibold -mt-[10.75px]  border-2 scale-150 z-10`;
 
       return (
         <div
@@ -187,10 +187,7 @@ function POS_analyzer() {
     });
 
     return (
-      <div
-        id="insightArea"
-        className="p-2 border-2 font-sans min-h-40 flex flex-wrap"
-      >
+      <div id="insightArea" className="p-2 border-2 font-sans flex flex-wrap">
         {jsxElements}
       </div>
     );
