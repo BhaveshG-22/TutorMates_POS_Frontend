@@ -7,7 +7,7 @@ module.exports = {
         adjective: "#808000", // Adjective
         adverb: "#87CEEB", // Adverb
         conjunction: "#7030A0", // Conjunction
-        determiner: "#9999CC", // Determiner
+        determiner: "#9ACD32", // Determiner
         noun: "#008000", // Noun
         number: "#66CC99", // Number
         preposition: "#FFC000", // Preposition
@@ -25,7 +25,7 @@ module.exports = {
         propernounplural: "#008000", // Noun
         nounplural: "#008000", // Noun
         possessiveending: "#008000", // Noun
-        predeterminer: "#9999CC", // Determiner
+        predeterminer: "#9ACD32", // Determiner
          possessivepronoun: "#7FFF00", // Pronoun
         personalpronoun: "#7FFF00", // Pronoun
          adverbcomparative: "#87CEEB", // Adverb
@@ -39,7 +39,7 @@ module.exports = {
         verbpastpart: "#0070C0", // Verb
         verbpresent: "#0070C0", // Verb
         verbpresent: "#0070C0", // Verb
-        whdeterminer: "#9999CC", // Determiner
+        whdeterminer: "#9ACD32", // Determiner
         whpronoun: "#7FFF00", // Pronoun
         possessivewh: "#7FFF00", // Pronoun
         whadverb: "#87CEEB", // Adverb
